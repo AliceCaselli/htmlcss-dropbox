@@ -51,4 +51,53 @@ button{
     background-color: greenyellow;
 }
 
+header{
+    background-color: blueviolet;
+}
+
+header .inner-header{
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    background-color: rgb(73, 1, 141);
+
+}
+
+header .inner-header h1{
+    height: 100px;
+    width: 100%;
+    background-color: darkmagenta;
+
+
+    margin-bottom: 25px;
+
+}
+
+header .inner-header .left-block{
+    display: flex;
+    flex-direction: row;
+    
+    height: 400px;
+    width: 100%;
+
+    background-color: darkmagenta;
+}
+
+header .inner-header .left-block .text{
+    display: flex;
+    flex-grow: 1;
+    height: 400px;
+}
+
+
+header .inner-header .left-block .frame{
+    display: flex;
+    flex-grow: 1.5;
+    height: 500px;
+    background-color: darkgoldenrod;
+}
 

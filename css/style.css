@@ -151,19 +151,22 @@ main .inner-container .title .check input{
 }
 
 main .inner-container .plans{
-    margin-top: 50px;
+    margin: 50px 0px;
     display: flex;
     gap: 20px;
 }
 
-main .inner-container .plans .col{
+/* col style*/
+
+.plans .col{
     width: calc(100% / 3);
+}
 
-
+.col{
     border: 1px solid lightgray;
 }
 
-main .inner-container .plans .col .name{
+.col .name{
     display: flex;
     justify-content: center;
     gap: 5px;
@@ -176,7 +179,7 @@ main .inner-container .plans .col .inner-col{
     padding: 25px 20px;
 }
 
-/* inner-col style  */
+
 
 .col-head h3{
     font-size: 1.2em;
@@ -255,35 +258,35 @@ main .inner-container .plans .col .inner-col{
 }
 
 
+/* /col style */
 
+.col-row{
+    display: flex;
+    gap: 20px;
 
-
-main .inner-container .team{
-    height: 700px;
-    width: 30%;
-    background-color: coral;
+    padding: 25px 20px;
+    
 }
 
-main .inner-container .company{
-    height: 400px;
-    width: 30%;
-    background-color: coral;
+.col-row .inner-left{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
 }
 
-main .inner-container .single .inner-single{
-    width: 100%;
-    height: 500px;
-    background-color: brown;
+.col-row .inner-left h3{
+    font-weight: 800;
 }
 
-main .inner-container .team .inner-team{
-    width: 100%;
-    height: 700px;
-    background-color: brown;
+.col-row .inner-left p{
+    font-size: 0.8em;
 }
 
-main .inner-container .company .inner-company{
-    width: 100%;
-    height: 400px;
-    background-color: brown;
+
+.col-row .inner-right .btn{
+    font-size: 0.8em;
+    width: 300px;
+    text-align: center;
 }
+

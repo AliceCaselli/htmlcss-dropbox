@@ -290,3 +290,41 @@ main .inner-container .plans .col .inner-col{
     text-align: center;
 }
 
+/* init section */
+
+.partners{
+    display: flex;
+    gap: 40px;
+    
+    margin-top: 100px;
+
+}
+
+.partners img{
+    width: 60%;
+
+}
+
+.partners .img-text{
+    align-self: center;
+}
+
+.partners .img-text h2{
+    font-size: 1.3em;
+    padding-bottom: 1em;
+}
+
+.partners .img-text p{
+    font-size: 0.8em;
+    line-height: 1.3em;
+    padding-bottom: 2em;
+}
+
+.partners .img-text #btn-partner{
+    padding: 10px;
+    background-color: transparent;
+    border-color: gray;
+}
+
+
+

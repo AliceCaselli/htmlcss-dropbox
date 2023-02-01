@@ -549,3 +549,11 @@ section .title.color{
     display: inline-block;
     
 }
+
+footer{
+    background-color: #000000 ;
+}
+
+footer ul{
+    width: calc(100% / 5);
+}

@@ -133,7 +133,7 @@ main .inner-container .title{
 }
 
 main .inner-container .title h2{
-    font-size: 2.3em;
+    font-size: 2.2em;
 
     margin-bottom: 25px;
 }
@@ -327,4 +327,29 @@ main .inner-container .plans .col .inner-col{
 }
 
 
+/* end partners */
 
+/*operation dropbox*/
+
+.row{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.row .card{
+    width: calc(100% / 3);
+}
+
+.row .card img{
+    width: 100%;
+}
+
+.row .card .card-text > h3{
+    font-weight: 800;
+    padding-bottom: 2em;
+}
+
+.row .card .card-text > p{
+    font-size: 0.8em;
+}

@@ -320,9 +320,9 @@ main .inner-container .plans .col .inner-col{
     padding-bottom: 2em;
 }
 
-.partners .img-text #btn-partner{
+.partners .img-text .btn-white{
     padding: 10px;
-    background-color: transparent;
+    background-color: white;
     border-color: gray;
 }
 
@@ -352,4 +352,192 @@ main .inner-container .plans .col .inner-col{
 
 .row .card .card-text > p{
     font-size: 0.8em;
+}
+
+/* /operation dropbox*/
+
+#half{
+    width: 70%;
+    margin-bottom: 7em;
+}
+
+#half h2{
+    margin-bottom: 2em;
+}
+
+#half a{
+    font-size: 0.8em;
+}
+
+
+/*features & squares settings*/
+
+.features{
+    width: 100vw;
+    display: flex;
+
+}
+
+.features .square-left{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+  
+}
+
+.features .square-right{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+}
+
+
+
+.features .square-left .brand{
+    width: 50%;
+    height: 50%;
+}
+
+.features .square-right .brand{
+    width: 50%;
+    height: 50%;
+}
+
+.features .square-left .brand img{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+    filter: invert(1);
+    width: 60%;
+}
+
+.features .square-right .brand img{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+    filter: invert(1);
+    width: 60%;
+}
+
+
+/*square left settings */
+
+.features .square-left .brand.designit{
+    background-color: #a2d39b;
+}
+
+
+.features .square-left .brand.arizona{
+    background-color: #61082b;
+}
+
+
+.features .square-left .brand.florida{
+    background-color: #0093ce;
+}
+
+.features .square-left .brand.topps{
+    background-color: #ff1c1c;
+}
+
+
+/*square central settings*/
+
+.features .square-central{
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    padding: 2em;
+    overflow-y: auto;
+} 
+
+
+.features .square-central img{
+    width: 50%;
+    margin-bottom: 3em;
+}
+
+.features .square-central hr{
+    border-color: lightgray;
+    width: 20%;
+}
+
+.features .square-central p{
+    margin-top: 2em;
+    font-size: 0.8em;
+}
+
+
+
+.features .square-right .brand.bicycle{
+    background-color: #d5001f;
+
+}
+
+.features .square-right .brand.hearst{
+    background-color: #b4d0e7;
+}
+
+.features .square-right .brand.lonely{
+    background-color: #0d2481;
+}
+
+.features .square-right .brand.clear{
+    background-color: #ffd830;
+}
+
+/* /features*/
+
+/*bottom section*/
+
+section.bottom{
+    padding-bottom: 100px;
+    background-color: #b4d0e7;
+}
+
+section .title.color{
+    width: 60%;
+    color: #60072a;
+}
+
+
+.bottom .inner-container{
+    display: flex;
+}
+
+.bottom .inner-container .btn-white{
+    align-self: center;
+    padding: 15px;
+    color: gray;
+    border-color: gray;
+}
+
+
+/*FAQ*/
+
+.faq-quest .question{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    border-top: 1px solid lightgray;
+    font-weight: 700;
+}
+
+.faq-quest p{
+    display: none;
+}
+
+
+.faq-quest:hover p{
+    display: inline-block;
+    
 }

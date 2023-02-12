@@ -593,8 +593,28 @@ footer .foot-list ul a{
     text-decoration: none;
 }
 
+footer .foot-bottom{
+    padding-top: 100px;
+
+}
+
+footer .foot-bottom hr{
+    width: 100px;
+}
+
+footer .foot-bottom .foot-language{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    padding-top: 30px;
+}
 
 
 
+/*---HOVER---*/
 
-
+.btn:hover{
+    filter: brightness(1.3);
+}
